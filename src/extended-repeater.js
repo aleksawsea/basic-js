@@ -25,7 +25,6 @@ function repeater(str, options) {
 
   const finalAddition = new Array(additionRepeatTimes).fill(addition).join(additionSeparator);
   const finalString = new Array(repeatTimes).fill(str + finalAddition).join(separator);
-  console.log(finalString);
   return finalString;
 }
 
