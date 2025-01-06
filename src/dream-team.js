@@ -28,7 +28,6 @@ function createDreamTeam(members) {
       teamName += letters[j];
     }
   }
-  console.log(`${members} - ${letters} - ${teamName}`)
   return teamName;
 }
 
